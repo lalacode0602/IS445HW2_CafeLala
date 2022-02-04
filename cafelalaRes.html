@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation</title>
+  <link rel="stylesheet" href="cafelala.css">
+</head>
+<body>
+  <a href="index.html">Go Back to Main</a>
+  <h2>Make a Reservation</h2>
+
+  <form>
+    Name: <input type="text" name="name" required><br>
+    Message: <input type="text" name="msg"><br>
+    Password: <input type="password" name="pwd"><br>
+    Select a date: <input type="date" name="dob"> <br>
+    Email: <input type="email" name="email"> <br><br>
+   
+    Time:<br>
+      <select name="Time">
+        <option value="BreakFast">Break Fast</option>
+        <option value="Brunch">Brunch</option>
+        <option value="Lunch">Lunch</option>
+        <option value="TeaTime">Tea Time</option>
+        <option value="Dinner">Dinner</option>
+      </select> <br><br>
+      
+    Seat:<br>
+      <input type="radio" name="pmt" value="Patio" checked>Patio<br>
+      <input type="radio" name="pmt" value="Booth">Booth<br>
+      <input type="radio" name="pmt" value="Counter">Counter <br><br>
+ 
+    Other:<br>
+      <input type="checkbox" name="eatin" value="eatIn">I will eat in<br>
+      <input type="checkbox" name="member" value="Car">I have a membership 
+      <br><br><br>
+
+    <input type="submit" value="Submit">   
+    <input type="reset">
+  </form>
+
+</body>
+</html>

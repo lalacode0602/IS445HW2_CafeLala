@@ -1,0 +1,26 @@
+body{
+  font-family: Calibri;
+}
+p{
+  font-family: Calibri;
+}
+h1, h2{
+  font-family: Courier New;
+  color: red;
+}
+
+
+a:link{color:red;}
+a:visited{color: green;}
+
+input[type="submit"]:hover{background-color: red;}
+input[type="submit"]:active{background-color:green;}
+
+table{
+  background-color: lightgray;
+}
+tr:hover{background-color: lightblue;}
+
+ul{list-style: square;}
+ol{list-style: lower-roman;}
+
